@@ -21,4 +21,27 @@ if cargado:
 else:
     print("Batería baja")
 
+# UTILIZACION DE IF CON VARIAS CONDICIONALES O COMO LO LLAMAMOS UN IF ANIDADO
+
+hour = 25
+print(type(hour))
+
+print(type(int(hour)))
+if int(hour) < 12:
+    print("Good morning")
+elif int(hour) < 18:
+    print("Good afternoon")
+elif int(hour) <= 24:
+    print("Good night")
+else:
+    print("Esta hora no existe")
+
+# El uso de condicionales incluyentes y excluyentes (Y/O)
+
+edad = 16
+permitido = True
+asegurado = False
+
+if edad >= 18 and permitido or asegurado:
+    print("Puede conducir")
 
