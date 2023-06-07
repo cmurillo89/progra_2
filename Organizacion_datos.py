@@ -54,3 +54,5 @@ print(separado)
 
 aleatorio = [24,15,18,18,25,26,20,22,22,21]
 print(random.choice(aleatorio))
+
+# Trabajo en clase: Ordenar una lista de números de menor a mayor sin usar la función SORT()
